@@ -9,7 +9,6 @@ public class Ex6_Fatorial {
         int fatorial = numero;
 
         for(int x = numero - 1; x >= 1; x--){ 
-
             fatorial = fatorial * x;
 
         }
