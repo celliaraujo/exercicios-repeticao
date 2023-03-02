@@ -11,9 +11,6 @@ public class Ex6_Fatorial {
         for(int x = numero - 1; x >= 1; x--){ 
 
             fatorial = fatorial * x;
-            System.out.println("valor x " + x);
-            System.out.println("valor fatorial " + fatorial);
-            System.out.println("valor numero " + numero);
 
         }
 
