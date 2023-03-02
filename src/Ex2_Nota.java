@@ -7,17 +7,16 @@ public class Ex2_Nota {
 
         int nota;
 
-        while (true){
-            System.out.println("Insira uma nota entre 0 e 10: ");
-            nota = scanner.nextInt();
+        System.out.println("Insira uma nota entre 0 e 10: ");
+        nota = scanner.nextInt();
 
-            if(nota >= 0 && nota <= 10) break;
-            else{
-                System.out.println("Nota inválida!");
-            }
+        while (nota < 0 | nota > 10){
+            System.out.println("Nota inválida! Digite novamente: ");
+            nota = scanner.nextInt();            
         }
 
         System.out.println("Nota do aluno = " + nota);
+    
     }
     
 }
